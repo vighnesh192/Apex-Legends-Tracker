@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e2f1f8;
+    height: 9.8vh;
+    letter-spacing: 1.4px;
+}
+
+nav ul{
+    list-style: none;
+    width: 35vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    height: 71.83px;
+    align-items: center;
+}
+
+nav ul li{
+    height: 71.83px;
+    display: flex;
+    align-items: center;
+}
+
+.Link {
+    text-decoration: none;
+    color: #e2f1f8;
+    transition: all 0.4s ease-in-out;
+}
+
+.Link:hover {
+    color: #ffffff;
+}

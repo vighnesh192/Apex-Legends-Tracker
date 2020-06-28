@@ -1,0 +1,13 @@
+html {
+    background-color: #212121;
+    color: #e2f1f8;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 9vh 91vh;
+    font-family: 'Roboto', sans-serif;
+}
+

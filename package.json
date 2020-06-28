@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Stats tracker for Apex Legends",
   "main": "server.js",
-  "engines": {
-    "node": "12.x"
-  },
+
   "scripts": {
     "server": "nodemon server",
     "start": "node server",
