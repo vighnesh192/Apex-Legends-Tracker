@@ -26,19 +26,27 @@ function CardDisplay(props) {
                             <small>Kills</small>
                             <p>{props.player1.segments[0].stats.kills.value}</p>
                         </li>
-                        <li>
+                        
                             {typeof props.player1.segments[0].stats.season5Kills !== "undefined" 
-                            ? <React.Fragment><small>Season 5 Kills</small>
-                              <p>{props.player1.segments[0].stats.season5Kills.value}</p></React.Fragment> 
+                            ? <React.Fragment>
+                                <li>
+                                    <small>Season 5 Kills</small>
+                                    <p>{props.player1.segments[0].stats.season5Kills.value}</p>
+                                </li>
+                              </React.Fragment> 
                             : null}
-                        </li>
+                        
 
-                        <li>
+                        
                             {typeof props.player1.segments[0].stats.season5Wins !== "undefined" 
-                            ? <React.Fragment><small>Season 5 Wins</small>
-                              <p>{props.player1.segments[0].stats.season5Wins.value}</p></React.Fragment> 
+                            ? <React.Fragment>
+                                <li>
+                                    <small>Season 5 Wins</small>
+                                    <p>{props.player1.segments[0].stats.season5Wins.value}</p>
+                                </li>
+                              </React.Fragment> 
                             : null}
-                        </li>
+                        
 
                         <li>
                             <img src={props.player1.segments[1].metadata.imageUrl} />
