@@ -39,13 +39,13 @@ a {
 }
 
 @media(max-width: 768px) {
-    h1 {
+    #about-page h1 {
         margin-left: 3rem;
         margin-top: 3rem; 
         font-size: 2rem;
     }
 
-    p {
+    #about-page p {
         margin-left: 3rem;
         margin-top: 2rem;
         margin-right: 3.5rem;
